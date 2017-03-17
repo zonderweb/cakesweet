@@ -1,0 +1,54 @@
+@import "bourbon";
+@import "fonts";
+@import "libs";
+@import "vars";
+@import "app/libs/susy/sass/susy"; //Susy
+@import "grid";
+@import "header";
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	color: #666;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+	color: #666;
+}
+
+body {
+	font-size: rem(16px);
+	min-width: 320px;
+	position: relative;
+	line-height: 1.75;
+	font-family: $default-font;
+	overflow-x: hidden;
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+@import "media"; // Всегда в конце

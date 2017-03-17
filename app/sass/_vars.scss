@@ -1,0 +1,28 @@
+@import "bourbon";
+
+$default-font: "roboto", sans-serif;
+$icon-font: "FontAwesome";
+$accent: orange;
+
+
+// Mixin
+
+// Classic clearfix
+@mixin cf {
+	&::after {
+		content:"";
+		display: table;
+		clear: both;
+	}
+}
+
+// inline block
+@mixin inlineblock ($valine: top) {
+	display: inline-block;
+	vertical-align: $valine;
+}
+
+//responsive (rem)
+@function rem($px) {
+  @return $px / 16px + 0rem;
+}
