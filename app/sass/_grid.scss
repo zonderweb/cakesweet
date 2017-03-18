@@ -10,8 +10,11 @@ $susy: (
 // @include border-box-sizing;
 
 // Grid (saas сетка susy)
-.top-header {
+.top-header,
+.slider,
+.slider-item {
 	@include container();
+	margin: 0 20px;
 }
 
 .logo-block {
@@ -22,14 +25,25 @@ $susy: (
 	@include span(9);
 }
 
-// .search-login {
-// 	@include span(2 last);
-// }
-
 .login {
 	@include span(1);
 }
 
 .search {
 	@include span(1 last);
+}
+
+// Slider grid
+.ingridients {
+	@include span(2);
+}
+
+.product-img {
+	@include span(7);
+	padding-left: span(1);
+}
+
+.product-info {
+	@include span(7 last);
+	padding-left: span(1);
 }
