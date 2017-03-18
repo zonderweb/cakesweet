@@ -1,15 +1,35 @@
 // susy общие настройки
 $susy: (
 	columns: 16,
-	gutters: .1111,
-	container: 1400px,
+	gutters: 7px/63px,
+	container: 1100px,
 	global-box-sizing: border-box,
 	debug: (image: hide)
 );
 
 // @include border-box-sizing;
 
-// Grid (сетка)
-.header {
+// Grid (saas сетка susy)
+.top-header {
 	@include container();
+}
+
+.logo-block {
+	@include span(5);
+}
+
+.main-menu {
+	@include span(9);
+}
+
+// .search-login {
+// 	@include span(2 last);
+// }
+
+.login {
+	@include span(1);
+}
+
+.search {
+	@include span(1 last);
 }

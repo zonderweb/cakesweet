@@ -1,0 +1,22 @@
+.search-login {
+	text-align: center;
+}
+
+.login__link,
+.search__link {
+	line-height: 66px;
+	color: #fff;
+	font-size: rem(18px);
+	background: #ad2e32;
+	padding: 12px;
+	border-radius: 50%;
+
+	&:hover {
+		color: $yellow;
+	}
+}
+
+.login,
+.search {
+	@include inlineblock;
+}

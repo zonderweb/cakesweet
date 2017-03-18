@@ -1,0 +1,28 @@
+.main-menu {
+	line-height: 66px;
+}
+
+.top-menu {
+	text-align: right;
+}
+
+.top-menu__list {
+	margin: 0;
+	padding: 0;
+}
+
+.top-menu__item {
+	list-style: none;
+	@include inlineblock;
+	//margin-left: rem(65px);
+	margin-right: rem(45px);
+}
+
+.top-menu__link {
+	text-decoration: none;
+	color: #fff;
+
+	&:hover {
+		color: $yellow;
+	}
+}

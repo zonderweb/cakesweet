@@ -5,6 +5,9 @@
 @import "app/libs/susy/sass/susy"; //Susy
 @import "grid";
 @import "header";
+@import "logo-block";
+@import "main-menu";
+@import "search-login";
 
 *::-webkit-input-placeholder {
 	color: #666;
