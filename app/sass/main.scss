@@ -26,6 +26,10 @@
 	opacity: 1;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
 	color: #666;
@@ -40,7 +44,7 @@ body {
 	font-size: rem(16px);
 	min-width: 320px;
 	position: relative;
-	line-height: 1.75;
+	//line-height: 1.75;
 	font-family: $default-font;
 	overflow-x: hidden;
 }

@@ -2,7 +2,7 @@
 $susy: (
 	columns: 12,
 	gutters: .3333,
-	container: 960px,
+	container: 1400px,
 	global-box-sizing: border-box,
 	debug: (image: hide)
 );
@@ -10,7 +10,3 @@ $susy: (
 // @include border-box-sizing;
 
 // Grid (сетка)
-
-.main__wrapper {
-  @include container();
-}
