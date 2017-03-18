@@ -1,8 +1,14 @@
 @import "bourbon";
 
-$default-font: "roboto", sans-serif;
-$icon-font: "FontAwesome";
-$accent: orange;
+$default-font: "helvetica", sans-serif;
+$malina: "malina-webfont";
+
+// Colors
+
+$red:    #d13639;
+$yellow: #fca211;
+$lilac:  #2b2f5f;
+$choko:  #893213;
 
 
 // Mixin
