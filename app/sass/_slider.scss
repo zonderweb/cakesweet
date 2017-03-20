@@ -1,5 +1,6 @@
 .slider-item {
 	position: relative;
+	overflow: hidden;
 }
 
 // Ингридиенты
@@ -104,5 +105,4 @@
 	position: absolute;
 	left: 0;
 	top: 25%;
-	overflow: auto;
 }

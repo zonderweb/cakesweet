@@ -10,10 +10,22 @@
   }
 }
 
+/* My wport for big font slider
+======================================= */ 
+@media only screen and (max-width: 1024px) {
+  .title-bg {
+    font-size: rem(100px);
+  }
+}
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
     html {
     font-size: 15px;
+  }
+
+  .title-bg {
+    font-size: rem(80px);
   }
 }
 
@@ -28,6 +40,9 @@
 @media only screen and (max-width: 480px) {
   html {
     font-size: 12px;
+  }
+   .title-bg {
+    font-size: rem(50px);
   }
 }
 
