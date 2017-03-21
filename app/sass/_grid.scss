@@ -12,10 +12,11 @@ $susy: (
 // Grid (saas сетка susy)
 .top-header,
 .slider,
-.slider-item {
+.slider-item,
+.wrapper {
 	@include container();
-	padding-left: 20px;
-	padding-right: 20px;
+	//padding-left: 20px;
+	//padding-right: 20px;
 }
 
 .logo-block {
@@ -48,3 +49,22 @@ $susy: (
 	@include span(7 last);
 	padding-left: span(1);
 }
+
+// section vkusno
+.vkusno-text {
+	@include span(10);
+	padding-left: span(1);
+}
+
+.vkusno-text__wrapper {
+	@include span(6.8 of 10);
+}
+
+.vkusno-list__wrapper {
+	@include span(10 of 10);
+}
+
+.vkusno-image {
+	@include span(6 last);
+}
+

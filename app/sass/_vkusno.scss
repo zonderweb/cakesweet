@@ -1,0 +1,63 @@
+.vkusno {
+	padding-top: 115px;
+	background:  #c7c9c7;
+	background: linear-gradient(to right, #c7c9c7 0%, #f1f1f1 47%, #ebebea 100%);
+}
+
+.vkusno-bg {
+	background-image: url(../img/vkusno_bg.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+
+.vkusno__title {
+	color: $lilac;
+	font-size: rem(62px);
+	margin-top: 0;
+}
+
+.vkusno__description {
+	color: #747474;
+	font-size: rem(15px);
+	line-height: 22px;
+}
+
+// Spisok
+
+.vkusno-list__wrapper {}
+
+.vkusno__list {
+	margin: 0;
+	padding: 0;
+}
+
+.vkusno__item {
+	list-style: none;
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+.vkusno-list__img {
+	margin-bottom: 30px;
+}
+
+.vkusno__item--title {
+	font-family: $malina;
+	color: #747474;
+	max-width: 150px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+
+
+// КАРТИНКА
+.vkusno-image {
+	position: relative;
+}
+
+.vkusno-picture {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
