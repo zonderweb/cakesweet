@@ -4,17 +4,8 @@
 	background: linear-gradient(to right, #c7c9c7 0%, #f1f1f1 47%, #ebebea 100%);
 }
 
-.vkusno-bg {
-	background-image: url(../img/vkusno_bg.png);
-	background-repeat: no-repeat;
-	background-position: right top;
-}
-
-
 .vkusno__title {
 	color: $lilac;
-	font-size: rem(62px);
-	margin-top: 0;
 }
 
 .vkusno__description {
@@ -50,14 +41,18 @@
 	margin-bottom: 20px;
 }
 
-
-// КАРТИНКА
-.vkusno-image {
-	position: relative;
+.vkusno-text {
+	margin-bottom: 125px;
 }
 
-.vkusno-picture {
-	position: absolute;
-	top: 0;
-	left: 0;
+
+// КАРТИНКА ФОН
+.vkusno-bg {
+	background-size: contain;
+}
+
+.vkusno-bg__picture {
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
