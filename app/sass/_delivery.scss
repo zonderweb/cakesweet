@@ -1,0 +1,77 @@
+.delivery {
+	text-align: center;
+	color: #393939;
+	padding-top: 100px;
+	background: $yellow url(../img/delivery-bg.png);
+}
+
+.delivery-description__wrapper {
+	@include cf;
+	margin-bottom: 35px;
+}
+
+.delivery-title {
+	font-size: rem(62px);
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.delivery-description {
+	p {
+		color: #883213;
+		line-height: 22px;
+	}
+}
+
+// Список
+.row {
+	padding-bottom: 60px;
+}
+
+.product__list {
+	margin: 0;
+	padding: 0;
+}
+
+.product__item {
+	list-style: none;
+	padding-left: 25px;
+	padding-right: 25px;	
+}
+
+.conditer-img__wrapper {
+	margin-bottom: 20px;
+	height: 180px;
+	width: 180px;
+	background-color: rgba(0, 0, 0, .1);
+	position: relative;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.conditer-img {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	max-width: 200px;
+}
+
+
+.conditer__title {
+	font-size: rem(32px);
+	font-family: $malina;
+	margin-bottom: 10px;
+}
+
+.conditer__description {
+	p {
+		color: #a4161b;
+		font-size: rem(14px);
+		line-height: 21px;
+		}
+}

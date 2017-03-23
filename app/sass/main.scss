@@ -11,6 +11,7 @@
 @import "search-login";
 @import "slider";
 @import "vkusno";
+@import "delivery";
 
 *::-webkit-input-placeholder {
 	color: #666;
@@ -50,7 +51,7 @@ body {
 	font-size: rem(16px);
 	min-width: 320px;
 	position: relative;
-	//line-height: 1.75;
+	//line-height: 1.42;
 	font-family: $default-font;
 	overflow-x: hidden;
 }

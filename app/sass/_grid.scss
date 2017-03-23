@@ -65,3 +65,25 @@ $susy: (
 .vkusno-bg {
 	@include span(6 last);
 }
+
+// [ МЫ ПОСТАВЛЯЕМ ]
+.row {
+	@include container();
+}
+
+.delivery-description {
+	@include span(12);
+	margin-left: span(2);
+}
+
+.product__list {
+	@include container();
+}
+
+.product__item {
+	@include span(4);
+
+	&:nth-child(4n) {
+		@include span(4 last);
+	}
+}
