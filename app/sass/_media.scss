@@ -13,8 +13,12 @@
 /* My wport for big font slider
 ======================================= */ 
 @media only screen and (max-width: 1024px) {
-  .title-bg {
-    font-size: rem(100px);
+
+  .slider-item {
+
+    &::before {
+      font-size: rem(100px);
+    }
   }
 }
 
@@ -24,8 +28,11 @@
     font-size: 15px;
   }
 
-  .title-bg {
-    font-size: rem(80px);
+  .slider-item {
+
+    &::before {
+      font-size: rem(80px);
+    }
   }
 }
 
@@ -41,8 +48,12 @@
   html {
     font-size: 12px;
   }
-   .title-bg {
-    font-size: rem(50px);
+
+  .slider-item {
+
+    &::before {
+      font-size: rem(100px);
+    }
   }
 }
 
