@@ -22,8 +22,6 @@
 	padding-top: 55px;
 }
 
-.ingridients-btn {}
-
 .ingridients-btn__link {
 	display: inline-block;
 	background: #ce4448;
@@ -31,6 +29,10 @@
 	width: 40px;
 	border-radius: 50%;
 	position: relative;
+
+	&:hover {
+		background: $yellow;
+	}
 }
 
 .ingridients-btn__icon {
@@ -67,9 +69,7 @@
 }
 
 // Изображение товара
-.product-img__picture {
-
-}
+.product-img__picture {}
 
 // Описание
 

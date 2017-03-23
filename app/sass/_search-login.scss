@@ -1,22 +1,39 @@
 .search-login {
 	text-align: center;
-}
-
-.login__link,
-.search__link {
-	line-height: 66px;
-	color: #fff;
-	font-size: rem(18px);
-	background: #ad2e32;
-	padding: 12px;
-	border-radius: 50%;
-
-	&:hover {
-		color: $yellow;
-	}
+	padding-top: 15px;
+	padding-bottom: 10px;
 }
 
 .login,
 .search {
 	@include inlineblock;
+}
+
+.login__link,
+.search__link {
+	background: #ad2e32;
+	border-radius: 50%;
+	height: 44px;
+	width: 44px;
+	display: block;
+
+	&:hover {
+		background: $yellow;
+	}
+}
+
+.login__link,
+.search__link {
+	position: relative;
+
+	.login-ico__pic,
+	.search-ico__pic {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		display: block;
+	}
 }
