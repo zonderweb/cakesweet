@@ -10,7 +10,6 @@ var gulp           = require('gulp'),
 		imagemin       = require('gulp-imagemin'),
 		cache          = require('gulp-cache'),
 		autoprefixer   = require('gulp-autoprefixer'),
-		//bourbon        = require('node-bourbon'),
 		ftp            = require('vinyl-ftp'),
 		notify         = require("gulp-notify");
 
@@ -20,8 +19,8 @@ gulp.task('scripts', function() {
 		'app/libs/jquery/dist/jquery.min.js',
 		// 'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js', // Popup
 		// 'app/libs/owl.carousel/dist/owl.carousel.min.js', // OWL Слайдер
-		'app/libs/easy-tab/jquery.easytabs.min.js', // EasyTab
-		'app/js/common.js', // Всегда в конце
+		'app/libs/easy-tab/jquery.easytabs.js', // EasyTab
+		'app/js/common.js' // Всегда в конце
 		])
 	.pipe(concat('scripts.min.js'))
 	.pipe(uglify())

@@ -1,5 +1,6 @@
 $(function() {
 
-	// Custom JS
+	$('#tab-all').easytabs();
 
 });
+

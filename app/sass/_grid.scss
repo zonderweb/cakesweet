@@ -105,3 +105,19 @@ $susy: (
 .tab-title__title {
 	@include span(5);
 }
+
+.tab-item {
+	@include container();
+}
+
+.col-tab__left {
+	@include span(4);
+}
+
+.col-tab__center {
+	@include span(7);
+}
+
+.col-tab__right {
+	@include span(5 last);
+}
