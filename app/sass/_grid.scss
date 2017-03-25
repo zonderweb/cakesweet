@@ -87,3 +87,21 @@ $susy: (
 		@include span(4 last);
 	}
 }
+
+
+// ТАБЫ 
+.tab-container {
+	@include container();
+}
+
+.tab-title__list {
+	@include span(3.6666);
+
+	&:last-child {
+		@include span(3.6666 last);
+	}
+}
+
+.tab-title__title {
+	@include span(5);
+}

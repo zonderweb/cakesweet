@@ -1,0 +1,59 @@
+.tab-form {
+	padding-top: 85px;
+	padding-bottom: 85px;
+	background: rgba(223,224,222,1);
+	background: linear-gradient(to bottom, rgba(223,224,222,1) 0%, rgba(231,230,231,1) 30%, rgba(252,252,252,1) 51%, rgba(252,252,252,1) 71%, rgba(232,231,232,1) 100%);
+}
+
+.tab-container {}
+
+.tab-title {
+	margin: 0;
+	padding: 0;
+}
+
+.tab-title__list {
+	list-style: none;
+	//@include inlineblock;
+}
+
+.tab-title__title {}
+
+.our-team {
+	font-family: $malina;
+	font-size: rem(62px);
+	color: $lilac;
+}
+
+.tab-title__link {
+	text-decoration: none;
+	padding: 25px 30px;
+	//outline: 1px solid red;
+	display: block;
+}
+
+.tab-title__list--active {
+	background: #893213;
+	border-radius: 20px;
+
+	.cook-name {
+		color: $yellow;
+	}
+
+	.human-profi {
+		color: #fff;
+	}
+}
+
+.cook-name {
+	font-size: rem(30px);
+	color: $lilac;
+	font-family: $malina;
+	display: block;
+}
+
+.human-profi {
+	color: #8d8d8d;
+	line-height: 30px;
+	display: block;
+}
