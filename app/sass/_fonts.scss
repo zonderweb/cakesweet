@@ -1,9 +1,9 @@
-@import "bourbon";
+@import "mixin/font-face";
 
 
-@include font-face("FontAwesome", "../fonts/FontAwesome/fontawesome-webfont", $file-formats: eot woff woff2 ttf svg );
+@include font-face("FontAwesome", "../fonts/FontAwesome/fontawesome-webfont");
 
-@include font-face("helvetica", "../fonts/HelveticaRegular/HelveticaRegular", $file-formats: eot woff ttf);
-@include font-face("helvetica", "../fonts/HelveticaBold/HelveticaBold", bold, $file-formats: eot woff ttf);
+@include font-face("helvetica", "../fonts/HelveticaRegular/HelveticaRegular");
+@include font-face("helvetica", "../fonts/HelveticaBold/HelveticaBold", bold);
 
-@include font-face("malina-webfont", "../fonts/MalinaWebfont/malina-webfont", $file-formats: eot woff ttf svg);
+@include font-face("malina-webfont", "../fonts/MalinaWebfont/malina-webfont");
