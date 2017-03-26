@@ -4,38 +4,26 @@
 @import "app/libs/susy/sass/susy"; //Susy
 @import "grid";
 @import "typo";
-@import "header";
-@import "logo-block";
-@import "main-menu";
-@import "search-login";
-@import "slider";
-@import "vkusno";
-@import "delivery";
-@import "tab";
-@import "form";
+
 
 *::-webkit-input-placeholder {
-	color: #666;
+	color: #fff;
 	opacity: 1;
 }
 
 *:-moz-placeholder {
-	color: #666;
+	color: #fff;
 	opacity: 1;
 }
 
 *::-moz-placeholder {
-	color: #666;
+	color: #fff;
 	opacity: 1;
 }
 
 *:-ms-input-placeholder {
-	color: #666;
+	color: #fff;
 	opacity: 1;
-}
-
-* {
-	box-sizing: border-box;
 }
 
 body input:focus:required:invalid,
@@ -69,5 +57,22 @@ h3 {
 	max-width: 100%;
 	height: auto;
 }
+
+
+@import "header";
+@import "logo-block";
+@import "main-menu";
+@import "search-login";
+@import "slider";
+@import "vkusno";
+@import "delivery";
+@import "tab";
+@import "form";
+
+
+
+
+
+
 
 @import "media"; // Всегда в конце

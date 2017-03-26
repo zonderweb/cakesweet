@@ -1,0 +1,81 @@
+.form-container {
+	background: url(../img/form-container-bg.jpg) no-repeat center top;
+	background-size: cover;
+	border-radius: 25px;
+	min-height: 410px;
+}
+
+.right-block {
+	text-align: center;
+	position: relative;
+	@include cf;
+	min-height: 410px;
+	overflow: hidden;
+}
+
+.form-title {
+	color: #fff;
+	font-family: $malina;
+	font-size: rem(64px);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: auto;
+	transform: translate(-50%,-50%);
+}
+
+.left-block {
+	background: rgba(29,29,32, .84);
+	color: #fff;
+	min-height: 410px;
+	border-radius: 0px 25px 25px 0px;
+	padding: 70px 80px 70px 43px;	
+	position: relative;
+
+	input {
+		display: block;
+		margin-bottom: 30px;
+		padding: 20px 0;
+		background: none;
+		color: #fff;
+		border: none;
+		border-bottom: 1px solid #fff;
+	}
+
+	label {
+		cursor: pointer;
+	}
+}
+
+.name,
+.email,
+.telephone {
+	width: 100%;
+	outline: none;
+}
+
+input.order-call {
+	display: inline-block;
+	outline: none;
+}
+
+.btn-form-order {
+	position: absolute;
+	bottom: -35px;
+	right: -35px;
+	color: #9d5125;
+	background: $yellow;
+	border: none;
+	padding: 0;
+	font-size: 55px;
+	border-radius: 50%;
+	height: 95px;
+	width: 95px;
+	cursor: pointer;
+	outline: none;
+
+	&:hover {
+		background: #641a00;
+		color: $yellow;
+	}
+}

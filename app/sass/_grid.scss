@@ -7,7 +7,7 @@ $susy: (
 	debug: (image: hide)
 );
 
-// @include border-box-sizing;
+@include border-box-sizing;
 
 // Grid (saas сетка susy)
 .top-header,
@@ -120,4 +120,18 @@ $susy: (
 
 .col-tab__right {
 	@include span(5 last);
+}
+
+// Форма заказа
+.form-container {
+	@include span(12);
+	margin-left: span(2) + gutter();
+}
+
+.right-block {
+	@include span(6 of 12);
+}
+
+.left-block {
+	@include span(6 of 12 last);
 }

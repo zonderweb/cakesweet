@@ -14,9 +14,9 @@ $choko:  #893213;
 
 // Classic clearfix
 @mixin cf {
-	&::after {
+	&:after {
 		content:"";
-		display: table;
+		display: block;
 		clear: both;
 	}
 }
