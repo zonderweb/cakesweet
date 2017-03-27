@@ -135,3 +135,10 @@ $susy: (
 .left-block {
 	@include span(6 of 12 last);
 }
+
+// ACCORDEON
+
+.accordeon {
+	@include span(13);
+	margin-left: span(1);
+}
