@@ -142,3 +142,21 @@ $susy: (
 	@include span(13);
 	margin-left: span(1);
 }
+
+//FOOTER
+
+.logo-footer {
+	@include span(4);
+}
+
+.copyright {
+	@include span(3);
+}
+
+.adress {
+	@include span(5);
+}
+
+.footer-icon {
+	@include span(4 last);
+}
