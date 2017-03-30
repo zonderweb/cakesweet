@@ -15,8 +15,8 @@
 .top-menu__item {
 	list-style: none;
 	@include inlineblock;
-	//margin-left: rem(65px);
 	margin-right: rem(45px);
+	position: relative;
 }
 
 .top-menu__link {
@@ -25,5 +25,24 @@
 
 	&:hover {
 		color: $yellow;
+	}
+}
+
+
+.arrow__link {
+
+	&::after {
+		content: "\f107";
+		font-family: $icon;
+		margin-left: rem(7px);
+	}
+}
+
+.arrow__link:hover {
+
+	&::after {
+			content: "\f106";
+			font-family: $icon;
+			margin-left: rem(7px);
 	}
 }

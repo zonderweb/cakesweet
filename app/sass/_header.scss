@@ -9,21 +9,3 @@
 .top-header {
 	margin-bottom: 95px;
 }
-
-.arrow__link {
-
-	&::after {
-		content: "\f107";
-		font-family: $icon;
-		margin-left: rem(7px);
-	}
-}
-
-.arrow__link:hover {
-
-	&::after {
-			content: "\f00d";
-			font-family: $icon;
-			margin-left: rem(5px);
-	}
-}
