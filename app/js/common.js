@@ -1,5 +1,9 @@
 $(function() {
 
+	/* mmenu
+	============= */
+	$('#my-menu').mmenu(); 
+
 	/* TABS
 	============= */
 	$('#tab-all').easytabs();

@@ -1,0 +1,16 @@
+.hamburger {
+	text-decoration: none;
+	position: absolute;
+	right: 20px;
+	top: -5px;
+	padding: 0;
+}
+
+.hamburger-inner {
+	background-color: #fff;
+
+	&:before,
+	&:after {
+		background-color: #fff;
+	}
+}
