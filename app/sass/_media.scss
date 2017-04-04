@@ -8,6 +8,37 @@
     font-size: 16px;
   }
 }
+/* My viewport
+==================== */ 
+@media only screen and (max-width: 1060px) {
+  
+  // Footer
+
+  .logo-footer,
+  .copyright {
+    @include span(5.3333)
+    text-align: center;
+  }
+
+  .copyright {
+    position: relative;
+    left: 32.91384%;
+    margin-right: 0;
+  }
+
+  .adress {
+    @include span(5.3333 last);
+    text-align: center;
+    position: relative;
+    right: 32.91384%;
+  }
+
+  .footer-icon {
+    @include span(16);
+    text-align: center;
+    padding-top: 25px;
+  }
+}
 
 /* My wport for big font slider
 ======================================= */ 
@@ -104,6 +135,8 @@
       @include span(8 last);      
     }
   }
+
+
 
 }
 
