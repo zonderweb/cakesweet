@@ -31,10 +31,11 @@
 	}
 }
 
-.ingridients {
+.ingridients-btn {
+
 	&:hover {
 		cursor: pointer;
-
+		
 		.ingridients-btn__link {
 			background: $yellow;
 		}
