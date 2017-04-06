@@ -1,1 +1,1 @@
-<h1>Cakesweet</h1>
+<h1>Hipsweet | adaptive HTML5 service template</h1>
