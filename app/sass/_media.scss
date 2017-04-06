@@ -288,9 +288,34 @@
 
 @media only screen and (max-width: 680px) {
 
-  // WHY Vkusno 
+  // ПОЧЕМУ ТАК ВКУСНО
 
-  
+  .vkusno {
+    padding-top: 50px;
+  }
+
+  .vkusno-list__wrapper {
+    @include span(16);
+  }
+
+  // TABS 
+
+  .tab-container {
+    margin-bottom: 40px;
+  }
+
+  // FORM
+
+  .right-block {
+    width: 100%;
+    min-height: 210px;
+  }
+
+  .left-block {
+    width: 100%;
+    border-radius: 0px 0px 25px 25px;
+    padding: 40px;
+  }
 
 }
 
@@ -343,7 +368,7 @@
     padding-top: 50px;
   }
 
-    //we delivery
+  // WE DELIVERY
 
   .row {
     padding-bottom: 0;
