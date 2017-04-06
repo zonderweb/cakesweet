@@ -104,6 +104,10 @@
 	border-radius: 20px;
 	font-size: rem(14px);
 	font-weight: bold;
+
+	&:hover {
+		opacity: .68;
+	}
 }
 
 .slider-price,

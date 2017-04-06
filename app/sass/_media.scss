@@ -167,6 +167,35 @@
 }
 
 @media only screen and (max-width: 840px) {
+
+  // Slider
+  .slider-item {
+
+    &:before {
+      content: "";
+    }
+  }
+
+  .ingridients {
+  @include span(6);
+  }
+
+  .ingridients-btn {
+    margin-bottom: 80px;
+  }
+
+  .product-img {
+    @include span(10 last);
+  }
+
+  .product-info {
+    @include span(16);
+    margin-top: 20px;
+  }
+
+  .time-exp {
+   position: static;
+  }
   
   // Tabs
 
