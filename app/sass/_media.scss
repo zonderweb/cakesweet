@@ -136,7 +136,56 @@
     }
   }
 
+  //TABS
 
+  .tab-title {
+    padding: 0 10px;
+  }
+
+  .tab-form {
+    padding-top: 45px;
+  }
+
+  .tab-title__title {
+  @include span(16);
+  text-align: center;
+  margin-bottom: 40px;
+  }
+
+  .tab-title__list {
+    @include span(5.3333);
+
+    &:last-child {
+      @include span(5.3333 last);
+    }
+  }
+
+
+
+}
+
+@media only screen and (max-width: 840px) {
+  
+  // Tabs
+
+  .col-tab__left {
+  @include span(8);
+  padding-right: 20px;
+  }
+
+  .col-tab__center {
+    display: none;
+  }
+
+  .col-tab__right {
+    @include span(8 last);
+  }
+
+  // Questions
+
+  .questions {
+    min-height: 775px;
+  }
 
 }
 
@@ -156,38 +205,6 @@
 
   .search {
     @include span(1.5 last);
-  }
-
-  // Tabs
-  .tab-form {
-    padding-top: 45px;
-  }
-
-  .tab-title__title {
-  @include span(16);
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-  .tab-title__list {
-    @include span(5.3333);
-
-    &:last-child {
-      @include span(5.3333 last);
-    }
-  }
-
-  .col-tab__left {
-  @include span(8);
-  padding-right: 20px;
-  }
-
-  .col-tab__center {
-    display: none;
-  }
-
-  .col-tab__right {
-    @include span(8 last);
   }
 
   // Forms
