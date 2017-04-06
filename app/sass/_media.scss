@@ -11,7 +11,7 @@
 /* My viewport
 ==================== */ 
 @media only screen and (max-width: 1060px) {
-  
+
   // Footer
 
   .logo-footer,
@@ -137,6 +137,26 @@
   }
 
 
+
+}
+
+@media only screen and (max-width: 800px) {
+  
+  .logo-block {
+    @include span(8);
+  }
+
+  .main-menu {
+  @include span(5);
+}
+
+  .login {
+    @include span(1.5);
+  }
+
+  .search {
+    @include span(1.5 last);
+  }
 
 }
 
