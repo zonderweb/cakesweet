@@ -261,6 +261,29 @@
   html {
     font-size: 14px;
   }
+
+  // FOOTER
+
+  .logo-footer {
+    @include span(16);
+  }
+
+  .copyright {
+    position: static;
+    left: 0;
+    @include span(8);
+  }
+
+  .adress {
+    position: static;
+    right: 0;
+    @include span(8 last);
+  }
+
+  .footer-icon {
+    padding-top: 40px;
+    @include break;
+  }
 }
 
 @media only screen and (max-width: 600px) {
