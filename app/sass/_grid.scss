@@ -94,16 +94,16 @@ $susy: (
 	@include container();
 }
 
+.tab-title__title {
+	@include span(5);
+}
+
 .tab-title__list {
 	@include span(3.6666);
 
 	&:last-child {
 		@include span(3.6666 last);
 	}
-}
-
-.tab-title__title {
-	@include span(5);
 }
 
 .tab-item {

@@ -158,6 +158,53 @@
     @include span(1.5 last);
   }
 
+  // Tabs
+  .tab-form {
+    padding-top: 45px;
+  }
+
+  .tab-title__title {
+  @include span(16);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+  .tab-title__list {
+    @include span(5.3333);
+
+    &:last-child {
+      @include span(5.3333 last);
+    }
+  }
+
+  .col-tab__left {
+  @include span(8);
+  padding-right: 20px;
+  }
+
+  .col-tab__center {
+    display: none;
+  }
+
+  .col-tab__right {
+    @include span(8 last);
+  }
+
+  // Forms
+  .form-container {
+  @include span(14);
+  margin-left: span(1);
+  margin-right: span(1);
+  }
+
+  .right-block {
+    @include span(7 of 14);
+  }
+
+  .left-block {
+    @include span(7 of 14 last);
+  }
+
 }
 
 /* Small Devices, Tablets */
