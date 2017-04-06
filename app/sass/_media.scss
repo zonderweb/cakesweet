@@ -190,6 +190,7 @@
 
   .product-info {
     @include span(16);
+    @include break;
     margin-top: 20px;
   }
 
