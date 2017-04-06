@@ -286,6 +286,14 @@
   }
 }
 
+@media only screen and (max-width: 680px) {
+
+  // WHY Vkusno 
+
+  
+
+}
+
 @media only screen and (max-width: 600px) {
 
   // Menu section
@@ -329,6 +337,27 @@
       font-size: rem(100px);
     }
   }
+
+  // ПОЧЕМУ ТАК ВКУСНО
+  .delivery {
+    padding-top: 50px;
+  }
+
+    //we delivery
+
+  .row {
+    padding-bottom: 0;
+  }
+
+  .product__item {
+    @include span(16);
+    margin-bottom: 40px;
+
+    &:nth-child(2n) {
+      @include span(16);      
+   }
+  }
+
 }
 
 /*==========  Mobile First  ========== */
