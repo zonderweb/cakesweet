@@ -50,6 +50,8 @@
       font-size: rem(100px);
     }
   }
+  
+  // MENU section
 
   .logo-block {
     @include span(4);
@@ -229,6 +231,37 @@
   html {
     font-size: 14px;
   }
+}
+
+@media only screen and (max-width: 600px) {
+
+  // Menu section
+
+  .top-header {
+    margin-bottom: 30px;
+  }
+
+  .logo-block {
+    @include span(13);
+    margin-bottom: 20px;
+  }
+
+  .main-menu {
+    @include span(3 last);
+  }
+
+  .search-login {
+    display: none;
+  }
+
+  .login {
+   // @include span(8);
+  }
+
+  .search {
+   // @include span(8 last);
+  }
+
 }
 
 /* Extra Small Devices, Phones */
