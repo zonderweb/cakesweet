@@ -2,10 +2,9 @@
 @import "libs";
 @import "vars";
 @import "app/libs/susy/sass/susy"; //Susy
-@import "grid";
-@import "typo";
 
-
+/* MAIN CSS 
+================================ */
 *::-webkit-input-placeholder {
 	color: #fff;
 	opacity: 1;
@@ -58,7 +57,8 @@ h3 {
 	height: auto;
 }
 
-
+@import "grid";
+@import "typo";
 @import "header";
 @import "logo-block";
 @import "main-menu";

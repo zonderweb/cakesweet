@@ -3,7 +3,7 @@
 	overflow: hidden;
 	padding: 0 20px;
 
-	&::before {
+	&:before {
 		content: "Пирожинка";
 		font-family: $malina;
 		font-size: rem(150px);
@@ -14,9 +14,14 @@
 		top: 160px;
 		text-transform: uppercase;
 	}
+
+	&:focus {
+		outline: 0;
+	}
 }
 
 // Ингридиенты
+
 .ingridients {
 	text-align: center;
 	padding-top: 75px;
@@ -132,5 +137,46 @@
 .slider-price {
 	.fa-rub {
 		font-size: rem(44px);
+	}
+}
+
+// DOTS 
+
+.slick-dots {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: -5%;
+	left: 50%;
+
+	li {
+		@include inlineblock;
+		margin-right: 30px;
+
+		button {
+			font-size: 0;
+			height: 12px;
+			width: 12px;
+			background: #fff;
+			border: none;
+			border-radius: 50%;
+		}
+	}
+}
+
+li.slick-active {
+	button {
+		background: $yellow;
+	}
+}
+
+.slick-dots {
+	li {
+		button {
+			&:focus {
+				outline: 0;
+			}
+		}
 	}
 }

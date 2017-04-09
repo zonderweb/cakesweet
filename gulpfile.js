@@ -17,8 +17,7 @@ var gulp           = require('gulp'),
 gulp.task('scripts', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
-		'app/libs/jQuery.mmenu/dist/jquery.mmenu.all.min.js',
-		// 'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js', // Popup
+		'app/libs/jQuery.mmenu/dist/jquery.mmenu.all.min.js', // MMenu
 		'app/libs/slick-carousel/slick/slick.min.js', // Slick Слайдер
 		'app/libs/easy-tab/jquery.easytabs.js', // EasyTab
 		'app/js/common.js' // Всегда в конце
