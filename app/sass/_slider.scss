@@ -147,20 +147,25 @@
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	bottom: -5%;
-	left: 50%;
+	bottom: -30px;
+	width: 100%;
+	text-align: center;
 
 	li {
 		@include inlineblock;
 		margin-right: 30px;
+		position: relative;
+		cursor: pointer;
 
 		button {
 			font-size: 0;
+			color: transparent;
 			height: 12px;
 			width: 12px;
 			background: #fff;
 			border: none;
 			border-radius: 50%;
+			cursor: pointer;
 		}
 	}
 }
