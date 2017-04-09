@@ -318,13 +318,55 @@
     font-size: rem(18px);
   }
 
+  // SLIDER
+  .ingridients {
+    @include span(3);
+  }
+
+  .ingridients-btn {
+    margin-bottom: 80px;
+  }
+
+  .product-img {
+    @include span(13 last);
+  }
+
+  .product-img__picture {
+    margin: 0 auto;
+  }
+
 }
 
 @media only screen and (max-width: 620px) {
 
   // TABS 
 
-  .tab-title__list {}
+  .tab-title__list {
+    @include span(16);
+
+    &:last-child {
+      @include span(16 last);
+    }
+  }
+
+  .tab-title__list .active {
+    &:after {
+      display: none;
+    }
+  }
+
+  .tab-title__link {
+    text-align: center;
+  }
+
+  .cook-name,
+  .human-profi {
+    @include inlineblock;
+  }
+
+  .cook-name {
+    margin-right: 20px;
+  }
 
 }
 
@@ -361,8 +403,15 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+
   html {
     font-size: 12px;
+  }
+
+  // TOP HEADER
+
+  .logo__pic {
+    max-width: 90%;
   }
 
   .slider-item {
@@ -373,14 +422,23 @@
   }
 
   // ПОЧЕМУ ТАК ВКУСНО
-  .delivery {
-    padding-top: 50px;
+
+  .vkusno__item {
+    display: block;
+  }
+
+  .vkusno__item--title {
+    max-width: 100%;
   }
 
   // WE DELIVERY
 
   .row {
     padding-bottom: 0;
+  }
+
+  .delivery {
+    padding-top: 50px;
   }
 
   .product__item {
@@ -390,6 +448,41 @@
     &:nth-child(2n) {
       @include span(16);      
    }
+  }
+
+  .delivery-description__wrapper {
+    padding: 0 10px;
+  }
+
+  // TABS 
+
+  .tab-title {
+    margin-bottom: 10px;
+  }
+
+  .col-tab__left,
+  .col-tab__right {
+    @include span(16);
+  }
+
+  .col-tab__right {
+    padding-left: 20px;
+  }
+
+  .col-tab__left {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  // FOOTER
+
+  .copyright,
+  .adress {
+    @include span(16);
+  }
+
+  .footer-icon {
+    padding-top: 20px;
   }
 
 }
