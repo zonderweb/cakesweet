@@ -315,7 +315,16 @@
     width: 100%;
     border-radius: 0px 0px 25px 25px;
     padding: 40px;
+    font-size: rem(18px);
   }
+
+}
+
+@media only screen and (max-width: 620px) {
+
+  // TABS 
+
+  .tab-title__list {}
 
 }
 
@@ -340,12 +349,12 @@
     display: none;
   }
 
-  .login {
-   // @include span(8);
-  }
+  // FORM BUTTON
 
-  .search {
-   // @include span(8 last);
+  .btn-form-order {
+    right: 50%;
+    margin-right: -48px;
+    bottom: -45px;
   }
 
 }
