@@ -19,7 +19,7 @@ gulp.task('scripts', function() {
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/jQuery.mmenu/dist/jquery.mmenu.all.min.js',
 		// 'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js', // Popup
-		// 'app/libs/owl.carousel/dist/owl.carousel.min.js', // OWL Слайдер
+		'app/libs/slick-carousel/slick/slick.min.js', // Slick Слайдер
 		'app/libs/easy-tab/jquery.easytabs.js', // EasyTab
 		'app/js/common.js' // Всегда в конце
 		])
